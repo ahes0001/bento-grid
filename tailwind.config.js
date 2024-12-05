@@ -3,6 +3,14 @@ export default {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
+    colors: {
+      'black': '#000000',
+      'white': '#FFFFFF',
+      'purple100': '#DBD1FC',
+      'purple500': '#7551DC',
+      'yellow100': '#F9EEE2',
+      'yellow500': '#FFCC6A',
+    },
   	extend: {
       gridRow: {
         'span-17': 'span 17 / span 17',

@@ -37,10 +37,48 @@ body {
   min-height: 100vh;
 }
 
+
+/* Text Preset 1 - H1 */
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 62px;
+  line-height: 93.5%; /* Adjusted for precise height */
+  letter-spacing: -3px;
+  margin: 0; /* Adjust as needed */
 }
+
+/* Text Preset 2 - H2 */
+h2 {
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -2px;
+  margin: 0; /* Adjust as needed */
+}
+
+/* Text Preset 3 - H3 */
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 32px;
+  line-height: 87.5%;
+  letter-spacing: -2px;
+  margin: 0; /* Adjust as needed */
+}
+
+/* Text Preset 4 - H4 */
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 18px;
+  line-height: 111%;
+  letter-spacing: 0px;
+  margin: 0; /* Adjust as needed */
+}
+
 
 button {
   border-radius: 8px;
