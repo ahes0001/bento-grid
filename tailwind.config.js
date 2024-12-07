@@ -12,6 +12,14 @@ export default {
       'yellow500': '#FFCC6A',
     },
   	extend: {
+		gridRowEnd: {
+			'25': '25', // Adds row-end-25 class
+			'18': '18', // Adds row-end-18 class
+		  },
+		gridRowStart: {
+			'25': '25', // Adds row-end-25 class
+			'18': '18', // Adds row-end-18 class
+		  },
       gridRow: {
         'span-17': 'span 17 / span 17',
       },
