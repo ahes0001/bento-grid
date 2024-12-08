@@ -55,7 +55,7 @@ function App() {
       </div>
       <div className="bg-yellow100 rounded-lg lg:row-start-1 lg:row-end-13 p-[5%] flex flex-col justify-center">
         <h3 className="mb-[5%]">
-          Create and schedule content <span className="text-purple500">quicker</span>.
+          Create and schedule content <span className="text-purple500 italic">quicker</span>.
         </h3>
         
         <img className="w-[150px]" src="\images\illustration-create-post.webp" alt="" />
