@@ -40,7 +40,7 @@ body {
 
 /* Text Preset 1 - H1 */
 h1 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans', sans-serif;
   font-weight: 500; /* Medium */
   font-size: 62px;
   line-height: 93.5%; /* Adjusted for precise height */
@@ -51,7 +51,7 @@ h1 {
 /* Text Preset 2 - H2 */
 h2 {
   color: white;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans', sans-serif;
   font-weight: 500; /* Medium */
   font-size: 40px;
   line-height: 90%;
@@ -61,7 +61,7 @@ h2 {
 
 /* Text Preset 3 - H3 */
 h3 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans', sans-serif;
   font-weight: 500; /* Medium */
   font-size: 32px;
   line-height: 87.5%;
@@ -71,7 +71,7 @@ h3 {
 
 /* Text Preset 4 - H4 */
 h4 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DMSans', sans-serif;
   font-weight: 400; /* Regular */
   font-size: 18px;
   line-height: 111%;
@@ -176,3 +176,32 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/src/assets/fonts/static/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Normal style */
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/src/assets/fonts/static/DMSans-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/src/assets/fonts/static/DMSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/src/assets/fonts/static/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900; /* Variable weight range */
+  font-style: normal;
+}
+
