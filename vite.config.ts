@@ -4,6 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
+  base: '/bento-grid/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
